@@ -6,7 +6,7 @@ Door.Touched:Connect(function(hit)
 		local Player = game:GetService("Players"):GetPlayerFromCharacter(hit.Parent)
 		if Player then
 			local UserID = Player.UserId
-			local GamePassID = 679295807
+			local GamePassID = --Your GamePassID
 			local OwnsGamepass = MarketPlaceService:UserOwnsGamePassAsync(UserID, GamePassID)
 			if OwnsGamepass then
 				Door.Transparency = 0.6
