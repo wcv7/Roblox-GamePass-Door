@@ -1,1 +1,1 @@
-# Roblox-GamePass-Door
+This Is A Simple Gamepass Door, It Only Allows People Who Own The Gamepass To Enter, Kind Of Outdated, But It Gives An Example Of How You Can Check If A Player Owns A Gamepass And If Not Then Request Them To Buy It. This Scripts Uses MarketPlaceService Which Requires You To Turn On {The Stduio Access to API Services} Option In The {Security} Section Of The {Game Settings}.
