@@ -7,7 +7,7 @@ Door.Touched:Connect(function(hit)
 		if Player then
 			local UserID = Player.UserId
 			local GamePassID = --Your GamePassID
-			local OwnsGamepass = MarketPlaceService:UserOwnsGamePassAsync(UserID, GamePassID)
+			local OwnsGamepass = MarketPlaceService:UserOwnsGamePassAsync(UserID, GamePassID) -- Returns Boolean
 			if OwnsGamepass then
 				Door.Transparency = 0.6
 				Door.CanCollide = false
